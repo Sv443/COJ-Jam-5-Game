@@ -1,0 +1,22 @@
+{
+  "name": "coj-jam-5",
+  "version": "1.0.0",
+  "description": "Game.",
+  "main": "game.js",
+  "bin": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --out-dir=dist"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Sv443",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^4.4.8"
+  },
+  "dependencies": {
+    "svjsl": "^1.9.4"
+  }
+}
